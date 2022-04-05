@@ -145,16 +145,16 @@ p {
 @media only screen and (max-width: 420px) {
   h1 {
     -webkit-text-stroke: 1px black;
-    font-size: 27px;
+    font-size: 8.5vw;
     margin-top: 20px;
   }
   .titleBcg {
-    height: 110px;
-    width: 300px;
+    height: 17vh;
+    width: 98vw;
   }
   .searchBarBcg {
     height: 60px;
-    width: 250px;
+    width: 75vw;
   }
   #searchQueryInput {
     width: 90%;
