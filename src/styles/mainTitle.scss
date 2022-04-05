@@ -8,6 +8,7 @@
 
 .positionFixedTitle {
   position: absolute;
-  top:20vh;
-  left:27vw;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

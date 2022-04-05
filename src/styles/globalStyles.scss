@@ -3,7 +3,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   height: 66px;
   background-color: var(--darkGrey);
   z-index: 1;
@@ -17,10 +17,10 @@
 }
 
 .hero {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   position: fixed;
-  top:50px;
+  top:0;
   left: 0;
   background-image: url("./images/hero.jpeg");
   background-repeat: no-repeat;

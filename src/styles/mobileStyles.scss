@@ -1,4 +1,29 @@
 
 @media only screen and (max-width: 420px) {
 
+  h1 {
+    -webkit-text-stroke: 1px black;
+    font-size: 27px;
+    margin-top: 20px;
+  }
+
+  .titleBcg {
+    height: 110px;
+    width: 300px;
+  }
+
+  .searchBarBcg {
+    height: 60px;
+    width: 250px;
+  }
+
+  #searchQueryInput {
+    width: 90%;
+    height: 2.1rem;
+    font-size: 0.8rem;
+  }
+
+  .positionFixedTitle {
+    top: 32%;
+  }
 }
