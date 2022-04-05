@@ -1,0 +1,44 @@
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 66px;
+  background-color: var(--darkGrey);
+  z-index: 1;
+}
+
+.background {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./images/background.png");;
+  z-index: -1;
+}
+
+.hero {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top:50px;
+  left: 0;
+  background-image: url("./images/hero.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.displayFlex {
+  display: flex;
+  justify-content: center;
+}
+
+.alignCenter {
+  align-items: center;
+}
+
+.flexColumn {
+  flex-direction: column;
+}

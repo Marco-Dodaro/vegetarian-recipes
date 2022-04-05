@@ -1,0 +1,49 @@
+/* Basic styles*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+:root {
+  --primaryColor: rgb(23, 157, 18);
+  --mainWhite: #fff;
+  --offWhite: #f7f7f7;
+  --mainBlack: #222;
+  --mainGrey: #ececec;
+  --darkGrey: rgb(53, 53, 53);
+  --mainTransition: all 0.3s linear;
+  --mainSpacing: 3px;
+  --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+  --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  color: var(--mainWhite);
+  -webkit-text-stroke: 3px black;
+  font-size: 60px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 900;
+}
+
+h3 {
+  color: var(--mainWhite);
+}
+
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+
+@import "styles/globalStyles.scss";
+@import "styles/searchBar.scss";
+@import "styles/mainTitle.scss";
+
+@import "styles/mobileStyles.scss";
+@import "styles/tabletStyles.scss";
