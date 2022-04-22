@@ -10,7 +10,7 @@ export default class Navbar extends Component {
       <nav className="navbar">
         <NavLink to={"/"} className="noUnderline">
           <div className="logo">
-            <img src={logo} className="logoImg" />
+            <img src={logo} alt="Logo" className="logoImg" />
             <h2>Vegetarian&nbsp;Recipes <br/> 4 All</h2>
           </div>
         </NavLink>

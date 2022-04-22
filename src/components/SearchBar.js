@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import {useState, useEffect} from 'react';
+import React from 'react'
+import {useState} from 'react';
 import {FaSearch} from 'react-icons/fa';
 import RecipeCard from './RecipeCard';
 import axios from 'axios';
@@ -36,7 +36,7 @@ export default function SearchBar() {
     return (
       <>
         <div className="searchBarBcg displayFlex">
-          <form className="displayFlex flexColumn">
+          <form className="displayFlex flexColumn" autoComplete="off" autoCorrect="off">
             <div className="searchBar">
               <input ref={inputRef} type="text" id="searchQueryInput" className="searchBar" value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Type ingredients or recipe..."/>
               <button type="submit" id="searchQuerySubmit" className="searchIcon" onClick={fetchData}><FaSearch/></button>

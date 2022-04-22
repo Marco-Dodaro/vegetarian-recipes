@@ -20,7 +20,7 @@ export default function SingleRecipe() {
 
   useEffect (() => {
     fetchRecipe();
-  }, [params.name]);
+  }, []);
 
   return (
     <div className="displayFlex alignCenter divWrapper">
