@@ -297,7 +297,7 @@ ol > li {
 .subtitle {
   color: var(--mainBlack);
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
   border-bottom: 2px solid var(--darkGrey);
   padding: 2px;
   margin-bottom: 30px;
