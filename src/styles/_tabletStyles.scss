@@ -1,0 +1,115 @@
+
+
+@media only screen and (min-width: 421px) and (max-width: 800px) {
+
+    h1 {
+      -webkit-text-stroke: 2px black;
+      font-size: 7vw;
+      margin-top: 20px;
+    }
+
+    h2 {
+      font-size: 13px;
+    }
+
+    h3 {
+      font-size: 18px;
+    }
+
+    ol {
+      padding: 0;
+      width: 70vw;
+      line-height: 35px;
+      margin-top: 35px;
+    }
+
+    ul {
+      width: 60vw;
+    }
+
+    li {
+      font-size: 18px;
+    }
+
+    .navbar {
+      position: sticky;
+    }
+
+    .hero {
+      height: 120%;
+    }
+
+    .titleBcg {
+      height: 22vh;
+      width: 80vw;
+    }
+
+    .searchBarBcg {
+      height: 60px;
+      width: 55vw;
+    }
+
+    .searchIcon {
+      font-size: 15px;
+      top: 0.4rem;
+    }
+
+    #searchQueryInput {
+      width: 84%;
+      height: 2.1rem;
+      font-size: 0.95rem;
+      top: 0.4rem;
+    }
+
+    .positionFixedTitle {
+      top: 32%;
+    }
+
+    .recipeDiv {
+      display: grid;
+      justify-items: center;
+      grid-template-columns: 355px 355px;
+      margin-top: 45px;
+    }
+
+    .imagePreview{
+      border-radius: 25px;
+      height: 150px;
+    }
+
+    .recipeCard {
+      //background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+      height: 275px;
+      width: 300px;
+      margin-top: 35px;
+      margin-bottom: 10px;
+    }
+
+    .recipeImg {
+      width: 65vw;
+    }
+
+    .recipeContainer {
+      margin: 25px;
+    }
+
+    .divWrapper {
+      width: 96vw;
+      top: 5vh;
+    }
+
+    .recipeTitle {
+      font-size: 30px;
+      border-bottom: solid 3px var(--darkGrey);
+      padding-top: 0;
+    }
+
+    .subtitle {
+      font-size: 30px;
+    }
+
+    .contentMargin {
+      margin-top: 35px;
+    }
+
+}

@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 
 import SearchBar from '../components/SearchBar';
 import Title from '../components/Title';
+import RecipeCard from '../components/RecipeCard';
 
 function Home() {
 

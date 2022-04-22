@@ -7,13 +7,8 @@
   height: 66px;
   background-color: var(--darkGrey);
   z-index: 1;
-}
-
-.background {
-  height: 100vh;
-  width: 100vw;
-  background-image: url("./images/background.png");;
-  z-index: -1;
+  display: flex;
+  align-items: center;
 }
 
 .hero {
@@ -41,4 +36,20 @@
 
 .flexColumn {
   flex-direction: column;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.logoImg {
+  height: 50px;
+  border-radius: 25%;
+}
+
+.noUnderline {
+  text-decoration-color: transparent;
 }
