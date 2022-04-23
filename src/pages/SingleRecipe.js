@@ -9,22 +9,7 @@ export default function SingleRecipe() {
   const [datas, setDatas] = useState([]);
   const [loading, setLoading] = useState(false);
   let params = useParams();
-/*
-  async function fetchRecipe(e) {
-       try {
-         const response = await axios.get(`https://api.spoonacular.com/recipes/${params.name}/information?apiKey=${process.env.REACT_APP_API_KEY}`);
-         setDatas(response.data);
-         setLoading(true);
-       } catch (error) {
-         console.log(error);
-       }
-    }
 
-
-  useEffect (() => {
-    fetchRecipe();
-  }, [fetchRecipe]);
-*/
   useEffect(() => {
     const request = axios.CancelToken.source()
 
