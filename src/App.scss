@@ -82,6 +82,18 @@ ol > li {
   padding-bottom: 15px;
 }
 
+ol > img {
+  width: 10vw;
+  margin-left: 50%;
+  transform: translate(-50%, 0px);
+}
+
+ul > img {
+  width: 10vw;
+  margin-left: 50%;
+  transform: translate(-50%, 0px);
+}
+
 .customCounter {
   margin: 0;
   padding: 0;

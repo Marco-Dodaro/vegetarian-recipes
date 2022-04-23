@@ -84,6 +84,18 @@ ol > li {
   padding-bottom: 15px;
 }
 
+ol > img {
+  width: 10vw;
+  margin-left: 50%;
+  transform: translate(-50%, 0px);
+}
+
+ul > img {
+  width: 10vw;
+  margin-left: 50%;
+  transform: translate(-50%, 0px);
+}
+
 .customCounter {
   margin: 0;
   padding: 0;
@@ -336,6 +348,12 @@ ol > li {
   ul {
     width: 60vw;
   }
+  ol > img {
+    width: 40vw;
+  }
+  ul > img {
+    width: 40vw;
+  }
   li {
     font-size: 15px;
   }
@@ -422,6 +440,12 @@ ol > li {
   }
   ul {
     width: 60vw;
+  }
+  ol > img {
+    width: 20vw;
+  }
+  ul > img {
+    width: 20vw;
   }
   li {
     font-size: 18px;
