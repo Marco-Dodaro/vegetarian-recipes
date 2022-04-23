@@ -96,6 +96,43 @@ ul > img {
   transform: translate(-50%, 0px);
 }
 
+.missingImg {
+  font-weight: 300;
+  line-height: 2;
+  text-align: center;
+  min-height: 50px;
+  width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
+}
+
+.missingImg::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: -10px;
+  left: 0;
+  height: calc(100% + 10px);
+  width: 100%;
+  background-color: var(--mainWhite);
+  border-radius: 5px;
+}
+
+.missingImg::after {
+  content: "Loading Image...";
+  display: block;
+  font-size: 16px;
+  font-style: normal;
+  font-family: FontAwesome;
+  color: #646464;
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
 .customCounter {
   margin: 0;
   padding: 0;
