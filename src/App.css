@@ -394,9 +394,6 @@ ul > img {
   li {
     font-size: 15px;
   }
-  .navbar {
-    position: sticky;
-  }
   .hero {
     height: 120%;
   }
@@ -486,9 +483,6 @@ ul > img {
   }
   li {
     font-size: 18px;
-  }
-  .navbar {
-    position: sticky;
   }
   .hero {
     height: 120%;
