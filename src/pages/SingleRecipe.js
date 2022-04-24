@@ -27,7 +27,7 @@ export default function SingleRecipe() {
     fetchRecipe()
 
     return () => request.cancel()
-    }, [])
+  }, [params.name])
 
   return (
     <div className="displayFlex alignCenter divWrapper">
