@@ -38,7 +38,7 @@ export default function SearchBar() {
         <div className="searchBarBcg displayFlex">
           <form className="displayFlex flexColumn" autoComplete="off" autoCorrect="off">
             <div className="searchBar">
-              <input ref={inputRef} type="text" id="searchQueryInput" className="searchBar" value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Type ingredients or recipe..."/>
+              <input ref={inputRef} type="text" id="searchQueryInput" className="searchBar" value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Type ingredients..."/>
               <button type="submit" id="searchQuerySubmit" className="searchIcon" onClick={fetchData}><FaSearch/></button>
             </div>
           </form>
