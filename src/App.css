@@ -230,7 +230,7 @@ ul > img {
 
 .searchBarBcg {
   height: 100px;
-  width: 350px;
+  width: 465px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   border-radius: 50px;
   display: block;
@@ -398,12 +398,13 @@ ul > img {
     height: 120%;
   }
   .titleBcg {
-    height: 17vh;
-    width: 98vw;
+    height: 115px;
+    width: 95vw;
+    margin-top: 60px;
   }
   .searchBarBcg {
     height: 60px;
-    width: 75vw;
+    width: 85vw;
   }
   .searchIcon {
     font-size: 15px;
@@ -488,8 +489,9 @@ ul > img {
     height: 120%;
   }
   .titleBcg {
-    height: 22vh;
+    height: auto;
     width: 80vw;
+    margin-top: 200px;
   }
   .searchBarBcg {
     height: 60px;
