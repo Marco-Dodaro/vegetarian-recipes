@@ -21,7 +21,7 @@ export default function SearchBar() {
     try {
       const response = await axios.get(apiUrl);
       console.log(response.data);
-      if (response.data.results.length == 0) {
+      if (response.data.results.length === 0) {
         alert("No recipes found with inserted ingredients")
       } else {
       setRecipes(response.data.results);
